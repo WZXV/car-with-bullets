@@ -92,8 +92,8 @@ while True:
 
     pressed = pygame.key.get_pressed()
     car.speed *= 0.9
-    if pressed[pygame.K_s]: car.speed += 0.5
-    if pressed[pygame.K_w]: car.speed -= 0.5
+    if pressed[pygame.K_s]: car.speed += 0.6
+    if pressed[pygame.K_w]: car.speed -= 0.6
 
     if pressed[pygame.K_d]: car.angle += car.speed / 2
     if pressed[pygame.K_a]: car.angle -= car.speed / 2  # 7
